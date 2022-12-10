@@ -1,22 +1,45 @@
-import './App.css';
-import { Container } from 'react-bootstrap'
+import React from 'react'
+import { BrowserRouter, Route } from 'react-router-dom'
+// import { Container } from 'react-bootstrap'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Home from './components/Home'
+import Cart from './components/Cart'
 
-function App() {
+// import HomeScreen from './screens/HomeScreen'
+// import ProductScreen from './screens/ProductScreen'
+// import CartScreen from './screens/CartScreen'
+// import LoginScreen from './screens/LoginScreen'
+// import RegisterScreen from './screens/RegisterScreen'
+// import ProfileScreen from './screens/ProfileScreen'
+// import ShippingScreen from './screens/ShippingScreen'
+// import PaymentScreen from './screens/PaymentScreen'
+// import PlaceOrderScreen from './screens/PlaceOrderScreen'
+// import OrderScreen from './screens/OrderScreen'
+// import UserListScreen from './screens/UserListScreen'
+// import UserEditScreen from './screens/UserEditScreen'
+// import ProductListScreen from './screens/ProductListScreen'
+// import ProductEditScreen from './screens/ProductEditScreen'
+// import OrderListScreen from './screens/OrderListScreen'
+
+const App = () => {
   return (
     <>
-
+    <BrowserRouter>
     <Header />
-    <main>
-      <Container>
-       <h1> IndoorParadise</h1>
-      </Container>
-      </main>
+    <div>
+      <Route path= '/' exact>
+        <Home />
+      </Route>
+      <Route path='/cart'>
+        <Cart />
+      </Route>
+    </div>
+    <Footer />
+    </BrowserRouter>
     
-      <Footer />
       </>
-  );
-}
-
-export default App;
+    
+  )
+};
+export default App

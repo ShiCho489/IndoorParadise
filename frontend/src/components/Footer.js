@@ -3,15 +3,13 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const Footer = () => {
   return (
-  <footer><Container>
-    <Row>  
-      <Col className='text-center' py-3>
-        Copyright &copy; IndoorParadise
-      </Col>
-      </Row>
-      
+    <footer>
+      <Container>
+        <Row>
+          <Col className='text-center py-3'>Copyright &copy; IndoorParadise</Col>
+        </Row>
       </Container>
-      </footer>
+    </footer>
   )
 }
 
