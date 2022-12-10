@@ -1,10 +1,11 @@
 import React from 'react'
-import { BrowserRouter, Route } from 'react-router-dom'
-// import { Container } from 'react-bootstrap'
+import'./index.css'
+// import './bootstrap.mins.css';
+// //import { BrowserRouter, Route } from 'react-router-dom'
+import { Container } from 'react-bootstrap'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Home from './components/Home'
-import Cart from './components/Cart'
+
 
 // import HomeScreen from './screens/HomeScreen'
 // import ProductScreen from './screens/ProductScreen'
@@ -24,22 +25,20 @@ import Cart from './components/Cart'
 
 const App = () => {
   return (
-    <>
-    <BrowserRouter>
-    <Header />
-    <div>
-      <Route path= '/' exact>
-        <Home />
-      </Route>
-      <Route path='/cart'>
-        <Cart />
-      </Route>
+    
+    <div className= "App">
+      <Header />
+      <main className="py-3">
+      <Container>
+        
+       <h1>IndoorParadise</h1>
+
+      </Container>
+      </main>
+      <Footer />
     </div>
-    <Footer />
-    </BrowserRouter>
-    
-      </>
-    
-  )
+  
+);
+  
 };
 export default App
