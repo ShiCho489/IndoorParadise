@@ -1,7 +1,7 @@
   const products = [
 
 {
-    _id: '1',
+    
     name: 'Dumb-cane',
     botname: 'Dieffenbachia',
     image: '/img/Dumb-cane.jpg',
@@ -14,7 +14,7 @@
     numReviews: 4,
 },
 {
-  _id: 2,
+ 
   name: 'English-Ivy',
   botname: 'Hederahelix',
   image: '/img/English-Ivy.jpg',
@@ -27,7 +27,7 @@
   numReviews: 4,
 },
 {
-  _id: 3,
+  
   name: 'Monstera',
   botname: 'Monstera adansonii',
   image: '/img/Monstera.jpg',
@@ -42,7 +42,7 @@
 
 },
 {
-  _id: 4,
+  
   name: 'Snake-Plant',
   botname: 'Dracaena trifasciata',
   image: '/img/Snake-Plant.jpg',
@@ -56,7 +56,7 @@
 
 },
 {
-  _id: 5,
+  
   name: 'Planterbasket',
   image: '/img/Planterbasket.jpg',
   description: 
@@ -68,7 +68,7 @@
   numReviews: 4,
 },
 {
-  _id: 6,
+
   name: 'Navy Planter',
   image: '/img/Navy-Planter.jpg',
   description: 
