@@ -1,16 +1,13 @@
 const express = require('express');
 const products = require('./data/products')
-const mongoose = require('mongoose');
-require('dotenv').config();
+
+
 
 
 //app
 const app = express();
 
-//db
-mongoose.connect(process.env.MONGO_URI, {
-    
-}).then (() => console.log("DB is connected"));
+
 
 //routes middleware
 //app.use('/api', userRoutes);
