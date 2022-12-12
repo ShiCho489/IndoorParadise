@@ -23,7 +23,7 @@ const productSchema = mongoose.Schema(
         botname: {
             type: String,
             required: true,
-        }
+        },
         image: {
             type: String,
             required: true,
@@ -47,7 +47,7 @@ const productSchema = mongoose.Schema(
             default: 0,
         },
         price: {
-            type: Number,
+            type: String,
             required: true,
             default: 0,
         },
