@@ -22,7 +22,7 @@ const productSchema = mongoose.Schema(
         },
         botname: {
             type: String,
-            required: true,
+            required: false,
         },
         image: {
             type: String,
