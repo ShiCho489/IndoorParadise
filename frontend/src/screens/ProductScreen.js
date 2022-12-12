@@ -1,9 +1,8 @@
 import React from 'react'
-im
 
 const ProductScreen = () => {
   return (
-    <div>productscreen</div>
+    <div>ProductScreen</div>
   )
 }
 

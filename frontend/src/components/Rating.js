@@ -1,4 +1,5 @@
 import React from 'react'
+//import PropTypes from 'prop-types'
 
 const Rating = ({ value, text, color }) => {
   return (
@@ -48,5 +49,7 @@ const Rating = ({ value, text, color }) => {
     </div>
   )
 }
+
+
 
 export default Rating
