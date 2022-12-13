@@ -1,6 +1,8 @@
 import React from 'react'
+import { Route } from 'react-router-dom' 
 import { Link } from 'react-router-dom'
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import SearchBox from './SearchBox'
 
 const Header = () => {
   return (
@@ -13,6 +15,7 @@ const Header = () => {
        
        <Navbar.Toggle aria-controls="basic-navbar-nav" />
        <Navbar.Collapse id="basic-navbar-nav">
+       <Route render={({ history }) => <SearchBox history={history} />} />
         <Nav className="ml-auto">
           <Link to='/home'>
           <Nav.Link href="/home">
