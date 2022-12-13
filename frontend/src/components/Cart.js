@@ -4,5 +4,7 @@ import { CartState } from '../context/productContext'
 import Rating from './Rating'
 
 const Cart =()=> {
-   
+   const {
+    
+   }
 }
