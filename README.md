@@ -1,0 +1,1 @@
+IndoorParadise- e marketplace for indoor plants built with the MERN Stack
