@@ -1,13 +1,13 @@
 {
-  "main.css": "/IndoorParadise/static/css/main.80b682ce.chunk.css",
-  "main.js": "/IndoorParadise/static/js/main.2bc23e4c.chunk.js",
-  "main.js.map": "/IndoorParadise/static/js/main.2bc23e4c.chunk.js.map",
-  "static/js/1.70758bfb.chunk.js": "/IndoorParadise/static/js/1.70758bfb.chunk.js",
-  "static/js/1.70758bfb.chunk.js.map": "/IndoorParadise/static/js/1.70758bfb.chunk.js.map",
+  "main.css": "/IndoorParadise/static/css/main.23b40607.chunk.css",
+  "main.js": "/IndoorParadise/static/js/main.dd414279.chunk.js",
+  "main.js.map": "/IndoorParadise/static/js/main.dd414279.chunk.js.map",
+  "static/js/1.52e67d72.chunk.js": "/IndoorParadise/static/js/1.52e67d72.chunk.js",
+  "static/js/1.52e67d72.chunk.js.map": "/IndoorParadise/static/js/1.52e67d72.chunk.js.map",
   "runtime~main.js": "/IndoorParadise/static/js/runtime~main.80a38260.js",
   "runtime~main.js.map": "/IndoorParadise/static/js/runtime~main.80a38260.js.map",
-  "static/css/main.80b682ce.chunk.css.map": "/IndoorParadise/static/css/main.80b682ce.chunk.css.map",
+  "static/css/main.23b40607.chunk.css.map": "/IndoorParadise/static/css/main.23b40607.chunk.css.map",
   "index.html": "/IndoorParadise/index.html",
-  "precache-manifest.d8485484bf8e432fa9e279beef7f7982.js": "/IndoorParadise/precache-manifest.d8485484bf8e432fa9e279beef7f7982.js",
+  "precache-manifest.b335efeb13ac415eab2f1772fe9f476c.js": "/IndoorParadise/precache-manifest.b335efeb13ac415eab2f1772fe9f476c.js",
   "service-worker.js": "/IndoorParadise/service-worker.js"
 }

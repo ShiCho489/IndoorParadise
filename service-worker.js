@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/IndoorParadise/precache-manifest.d8485484bf8e432fa9e279beef7f7982.js"
+  "/IndoorParadise/precache-manifest.b335efeb13ac415eab2f1772fe9f476c.js"
 );
 
 workbox.clientsClaim();
