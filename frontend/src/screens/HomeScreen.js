@@ -21,7 +21,7 @@ const HomeScreen = () => {
 
     <>
     <h1>
-        Latest Products
+        Our Products
     </h1>
     <Row>
         {products.map(product => (
